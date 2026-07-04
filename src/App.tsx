@@ -7,6 +7,10 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Services from './components/Services';
 import About from './components/About';
+import Oracle8Ball from './components/Oracle8Ball';
+import Events from './components/Events';
+import Courses from './components/Courses';
+import Faq from './components/Faq';
 import BookingForm from './components/BookingForm';
 import Footer from './components/Footer';
 import BookingModal from './components/BookingModal';
@@ -35,6 +39,10 @@ export default function App() {
           <Hero />
           <About />
           <Services onBook={handleBook} />
+          <Oracle8Ball />
+          <Events />
+          <Courses />
+          <Faq />
           <BookingForm />
         </main>
         <Footer />

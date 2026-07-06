@@ -27,7 +27,7 @@ export default function Footer() {
             <span className="text-xl font-serif tracking-widest uppercase text-mystic-accent">Lilith Readings</span>
           </div>
           <p className="text-white/30 text-xs leading-relaxed font-light uppercase tracking-widest">
-            Unveiling the shadow, <br />
+            Finding cosmic clarity, <br />
             guiding the soul.
           </p>
           <div className="flex items-center gap-6">

@@ -7,6 +7,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Services from './components/Services';
 import About from './components/About';
+import DailyDraw from './components/DailyDraw';
 import Oracle8Ball from './components/Oracle8Ball';
 import Events from './components/Events';
 import Courses from './components/Courses';
@@ -39,6 +40,7 @@ export default function App() {
           <Hero />
           <About />
           <Services onBook={handleBook} />
+          <DailyDraw />
           <Oracle8Ball />
           <Events />
           <Courses />

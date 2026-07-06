@@ -15,13 +15,21 @@ export default function Navbar() {
       </div>
       
       <div className="hidden md:flex items-center gap-8">
-        {['Services', 'Oracle', 'Events', 'Courses', 'FAQ', 'About'].map((item) => (
+        {[
+          { label: 'About', href: '#about' },
+          { label: 'Services', href: '#services' },
+          { label: 'Daily Draw', href: '#dailydraw' },
+          { label: 'Oracle', href: '#oracle' },
+          { label: 'Events', href: '#events' },
+          { label: 'Courses', href: '#courses' },
+          { label: 'FAQ', href: '#faq' }
+        ].map((item) => (
           <a 
-            key={item} 
-            href={`#${item.toLowerCase()}`}
+            key={item.label} 
+            href={item.href}
             className="text-xs uppercase tracking-[0.2em] text-white/60 hover:text-mystic-accent transition-colors"
           >
-            {item}
+            {item.label}
           </a>
         ))}
       </div>

@@ -141,7 +141,7 @@ export default function Courses() {
                   required
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  placeholder="Enter your email coordinates..."
+                  placeholder="youremail@domain.com"
                   className="bg-white/5 border border-white/10 rounded-xl py-4 px-5 text-xs text-white uppercase tracking-widest focus:outline-none focus:border-mystic-accent/40 transition-colors w-full sm:flex-1 placeholder:text-white/20"
                 />
                 <button 

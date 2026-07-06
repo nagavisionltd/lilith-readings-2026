@@ -1,6 +1,6 @@
 import { motion } from 'motion/react';
 import { Sparkles, Moon, Star } from 'lucide-react';
-import lilithReader from '../assets/images/lilith_tarot_reader_1783182876851.jpg';
+import leilaSabzevari from '../assets/images/leila_sabzevari_1783187973648.jpg';
 
 export default function About() {
   return (
@@ -14,8 +14,8 @@ export default function About() {
         >
           <div className="relative z-10 rounded-3xl overflow-hidden aspect-square shadow-2xl shadow-mystic-purple/20">
             <img 
-              src={lilithReader} 
-              alt="Lilith Tarot Reader" 
+              src={leilaSabzevari} 
+              alt="Leila Sabzevari - Founder of Lilith Readings" 
               className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-1000"
               referrerPolicy="no-referrer"
             />
@@ -50,23 +50,18 @@ export default function About() {
           className="space-y-8"
         >
           <div className="space-y-4">
-            <span className="text-xs uppercase tracking-[0.5em] text-mystic-accent/60">The Reader</span>
+            <span className="text-xs uppercase tracking-[0.5em] text-mystic-accent/60">The Founder</span>
             <h2 className="text-5xl md:text-7xl font-serif font-light leading-tight">
-              Meet <span className="italic">Lilith</span>
+              Meet <span className="italic">Leila Sabzevari</span>
             </h2>
           </div>
 
           <div className="space-y-6 text-white/50 font-light leading-relaxed">
             <p>
-              With over 15 years of experience in the esoteric arts, Lilith has dedicated her life to 
-              understanding the unseen forces that shape our reality. Her approach combines traditional 
-              Tarot wisdom with modern psychological insights, specifically focusing on Shadow Work 
-              and the integration of the subconscious.
+              Leila Sabzevari is the visionary founder and owner of Lilith Readings. Based in the celestial atmospheric landscape of Stockholm, Sweden, Leila has spent over 15 years studying the esoteric arts and modern depth psychology to guide souls across the globe.
             </p>
             <p>
-              "I believe the cards are not just tools for prediction, but mirrors for the soul. 
-              They show us what we are ready to see, and guide us toward the parts of ourselves 
-              that have been waiting in the dark."
+              Her unique methodology blends classical Tarot symbology, cosmic geometry, and psychological Shadow Work. Rather than offering mere fortune-telling, Leila's sessions serve as a powerful spiritual mirror, illuminating hidden blockages and empowering you to step fully into your authentic cosmic alignment.
             </p>
           </div>
 
@@ -81,9 +76,9 @@ export default function About() {
             <div className="space-y-2">
               <div className="flex items-center gap-2 text-mystic-accent">
                 <Sparkles className="w-4 h-4" />
-                <span className="text-xl font-serif">5000+</span>
+                <span className="text-xl font-serif">Stockholm</span>
               </div>
-              <p className="text-[10px] uppercase tracking-widest text-white/30">Readings Delivered</p>
+              <p className="text-[10px] uppercase tracking-widest text-white/30">Based in Sweden</p>
             </div>
           </div>
         </motion.div>
